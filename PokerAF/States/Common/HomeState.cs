@@ -57,6 +57,7 @@ namespace ROKbot
                 {
                     await MouseSim.ClickOnPoint(Handle, point, true);
                     await Task.Delay(500);
+                    //asdasdasd
                 }
                 if (Window.TemplateMatching(rssRect, rssOffset, AppDirectory + "\\templates\\rss\\wood.png", out point))
                 {
